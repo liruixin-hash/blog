@@ -91,7 +91,7 @@
             async onsubmit(){
                 const {data} = await axios({
                     method:'post',
-                    url:'https://106.75.126.221:1337/posts',
+                    url:'http://106.75.126.221:1337/posts',
                     data:this.form
                 })
                 // console.log(data)
