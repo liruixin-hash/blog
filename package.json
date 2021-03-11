@@ -1,0 +1,17 @@
+{
+  "name": "myblog",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-strapi": "^0.2.0",
+    "element-ui": "^2.15.1",
+    "gridsome": "^0.7.0",
+    "mavon-editor": "^2.9.1",
+    "vant": "^2.12.6",
+    "vuex": "^3.6.2"
+  }
+}
